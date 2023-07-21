@@ -27,4 +27,9 @@ K8 Architecture:
 
 POD:
 - definiton of how to run container
-- 
+- POD single instance of process running on a cluster
+- It is important to note that Pods in Kubernetes are considered ephemeral; they can be created, destroyed, and rescheduled as needed due to scaling, updates, or node failures. To ensure the availability and reliability of applications, it's common to manage Pods using higher-level abstractions like Deployments, ReplicaSets, or StatefulSets.
+
+How to see all the resources in the kubectl ?
+- kubectl get all
+- kubectl get all -A (to see all the resources in entire system

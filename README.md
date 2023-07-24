@@ -32,4 +32,10 @@ POD:
 
 How to see all the resources in the kubectl ?
 - kubectl get all
-- kubectl get all -A (to see all the resources in entire system
+- kubectl get all -A (to see all the resources in entire system)
+
+DEPLOYMENT:
+- why we need ? --> autoscaling & autohealing
+- it just a wrapper
+- way to deploy apps
+- 

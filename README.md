@@ -1,4 +1,4 @@
-# k8-Notes
+# k8-Notes ####
 Why kubernetes? 
 - Docker is ephemeral in nature (short life span)
 - docker is simple and minimiliastic software.
